@@ -12,7 +12,7 @@ const App = () =>{
                 <nav>
                     <ul>
                         <div>
-                            <h4>Julian Evant Waluyan</h4>
+                            <h3>Julian Evant Waluyan</h3>
                         </div>
                         <div>
                             <h1>Covid Tracker</h1>
