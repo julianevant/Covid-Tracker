@@ -1,16 +1,14 @@
-import React, {useEffect} from 'react'
-import axios from 'axios';
+import React from 'react';
+import CaseGlobal from './CaseGlobal';
 
-const Global = () => {
-    useEffect(() => {
-       axios
-       .get("https://covid19.mathdro.id/api")
-       .then((response)=>({}))
-    }, [])
-    return (
+const Global = () =>{
+    return(
         <div>
-            <h1>Global</h1>
-        </div>
+       <div className="container mypanel text-center">
+      <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Cases in the World</h1>
+      </div>
+            <CaseGlobal/>
+       </div>
     )
 }
 

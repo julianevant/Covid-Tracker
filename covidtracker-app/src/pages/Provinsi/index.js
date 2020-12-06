@@ -1,10 +1,14 @@
 import React from 'react'
+import CaseProvinsi from './CaseProvinsi';
 
 const Provinsi = () => {
     return (
         <div>
-            <h1>Provinsi</h1>
-        </div>
+           <div className="container mypanel text-center">
+          <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Kasus di Provinsi Indonesia</h1>
+          </div>
+            <CaseProvinsi/>
+       </div>
     )
 }
 

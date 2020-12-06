@@ -1,10 +1,16 @@
 import React from 'react'
+import CaseIndo from './CaseIndo';
 
 const Indonesia = () => {
     return (
         <div>
-            <h1>Indonesia</h1>
-        </div>
+       <div className="container mypanel text-center">
+      <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}> Kasus di Indonesia</h1>
+      </div>
+        <CaseIndo/>
+         </div>
+
+ 
     )
 }
 
