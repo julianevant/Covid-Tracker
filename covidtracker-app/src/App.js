@@ -11,6 +11,12 @@ const App = () =>{
             <div>
                 <nav>
                     <ul>
+                        <div>
+                            <h4>Julian Evant Waluyan</h4>
+                        </div>
+                        <div>
+                            <h1>Covid Tracker</h1>
+                        </div>
                         <li>
                             <Link to="/global">
                                 Global

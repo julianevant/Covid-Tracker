@@ -5,7 +5,7 @@ const Global = () =>{
     return(
         <div>
        <div className="container mypanel text-center">
-      <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Cases in the World</h1>
+      <h1 style={{ fontFamily: "Sen", fontSize: "50px" }}>Kasus di dunia</h1>
       </div>
             <CaseGlobal/>
        </div>

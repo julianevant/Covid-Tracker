@@ -5,7 +5,7 @@ const Provinsi = () => {
     return (
         <div>
            <div className="container mypanel text-center">
-          <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Kasus di Provinsi Indonesia</h1>
+          <h1 style={{ fontFamily: "Sen", fontSize: "50px" }}>Kasus di Provinsi Indonesia</h1>
           </div>
             <CaseProvinsi/>
        </div>
