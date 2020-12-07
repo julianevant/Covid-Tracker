@@ -57,6 +57,10 @@
     float: left;
   }
   
+  body{
+    background-color: rgb(148, 168, 135);
+  }
+  
   .background {
     background-color:rgb(255, 255, 255)
   }
